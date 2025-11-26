@@ -19,7 +19,7 @@ function App() {
       {/* </div> */}
       <div className="pt-10">
         <Routes>
-          <Route path="/contact" element={<Contactus />} />
+          <Route path="/contact" element={<ContactUs />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/skill" element={<Skill />} />
           <Route path="/resume" element={<Resume />} />
