@@ -3,7 +3,7 @@ import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 // import Contactus from "./pages/contactus";
-import ContactUs from "./pages/contactus.jsx";
+import ContactUs from "./pages/Contactus.jsx";
 
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
