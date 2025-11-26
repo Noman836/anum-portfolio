@@ -51,7 +51,7 @@ const Header = () => {
         <div className="w-[50px] rounded-full flex justify-center items-center">
           <img
             className="rounded-full"
-            src="public/images/logo.jpg"
+            src="images/logo.jpg"
             alt="logo"
             style={{
               animation: animate ? "spin 3s linear" : "none",

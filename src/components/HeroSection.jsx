@@ -114,7 +114,7 @@ export default function ProfileCard() {
           className={`w-full h-full object-contain py-6 transition-opacity duration-1500 ease-in-out ${
             loaded ? "opacity-100" : "opacity-0"
           }`}
-          src="public/images/anum.png"
+          src="images/anum.png"
           alt="anum"
         />
       </div>

@@ -34,7 +34,7 @@ const Contactus = () => {
           <div className=" w-full h-[50px] flex justify-center items-center">
             <img
               className="w-[300px] h-[70px] "
-              src="public/images/sep.png"
+              src="images/sep.png"
               alt="seprator"
             />
           </div>

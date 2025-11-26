@@ -13,6 +13,10 @@ import naseebiadmin from "../../public/images/naseebiadmin.jpg";
 
 import naseebiApp from "../../public/images/naseebiApp.png";
 import soundboard from "../../public/images/soundboard.jpg";
+import portfolio from "../../public/images/portfolio.png";
+fortiquo;
+import fortiquo from "../../public/images/fortiquo.png";
+
 import Slider from "react-slick";
 
 // Prev Button
@@ -128,13 +132,20 @@ const Portfolio = () => {
       codeLink: "https://www.myinstants.com/en/index/pk/",
       playLink: "https://www.myinstants.com/en/index/pk/",
     },
-    // {
-    //   id: 4,
-    //   name: "MyPortfolio",
-    //   image: Portfolio,
-    //   codeLink: "https://www.myinstants.com/en/index/pk/",
-    //   playLink: "https://www.myinstants.com/en/index/pk/",
-    // },
+    {
+      id: 5,
+      name: "My Portfolio",
+      image: portfolio,
+      codeLink: "https://portfolio-oxau.vercel.app/",
+      playLink: "https://portfolio-oxau.vercel.app/",
+    },
+    {
+      id: 6,
+      name: "Fotiquo",
+      image: fortiquo,
+      codeLink: "",
+      playLink: "",
+    },
   ];
 
   // Slider Settings

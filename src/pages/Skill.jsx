@@ -33,47 +33,43 @@ const Skill = () => {
           ;
           <div className=" pb-4 sm:w-[35%] w-full mx-auto sm:flex flex flex-wrap sm:justify-left justify-center gap-10 ">
             <div className="w-[100px] h-[100px]">
-              <img src="public/images/unity.png" alt="unity" />
+              <img src="images/unity.png" alt="unity" />
               <h2 className="text-center font-bold text-[12px]">Unity</h2>
             </div>
             <div className="w-[100px] h-[140px]">
               <img
                 // style={{ width: "1000px", height: "70px" }}
-                src="public/images/cSharp.png"
+                src="images/cSharp.png"
                 alt="c#"
               />
               <h2 className="text-center font-bold text-[12px]">C#</h2>
             </div>
             <div className="w-[100px] h-[140px]">
-              <img src="public/images/opp.png" alt="oop" />
+              <img src="images/opp.png" alt="oop" />
               <h2 className="text-center font-bold text-[12px]">OOP</h2>
             </div>
             <div className="w-[100px] h-[140px]">
-              <img src="public/images/ds.png" alt="ds" />
+              <img src="images/ds.png" alt="ds" />
               <h2 className="text-center font-bold text-[12px]">
                 Data Structure
               </h2>
             </div>
             <div className=" w-[100px] h-[140px]">
-              <img src="public/images/html5.png" alt="html5" />
+              <img src="images/html5.png" alt="html5" />
               <h2 className="text-center font-bold text-[12px]">HTML5</h2>
             </div>
             <div className="w-[100px] h-[140px]">
-              <img src="public/images/css.png" alt="css" />
+              <img src="images/css.png" alt="css" />
               <h2 className="text-center font-bold text-[12px]">CSS</h2>
             </div>
             <div className="sm:w-[70px] h-[100px]">
-              <img
-                src="public/images/react.png"
-                style={{ width: 100 }}
-                alt="react"
-              />
+              <img src="images/react.png" style={{ width: 100 }} alt="react" />
               <h2 className="text-center font-bold text-[12px]">React.js</h2>
             </div>
 
             <div className="sm:w-[70px] h-[100px]">
               <img
-                src="public/images/js.png"
+                src="images/js.png"
                 style={{ width: 100 }}
                 alt="next.js"
                 className="pt-2.5"
@@ -82,7 +78,7 @@ const Skill = () => {
             </div>
             <div className="sm:w-[70px] h-[100px]">
               <img
-                src="public/images/tailwind.png"
+                src="images/tailwind.png"
                 style={{ width: 100 }}
                 alt="tailwind"
               />
@@ -97,7 +93,7 @@ const Skill = () => {
           <div className="sm:w-[35%] w-full h-[350px] m-auto flex gap-3 justify-center flex-wrap ">
             <div className="sm:w-[70px] h-[100px]">
               <img
-                src="public/images/python.png"
+                src="images/python.png"
                 style={{ width: 100 }}
                 alt="python"
               />

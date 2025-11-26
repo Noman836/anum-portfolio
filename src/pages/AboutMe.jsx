@@ -97,7 +97,7 @@ const AboutMe = () => {
           <div className="w-full flex justify-center items-center mt-6">
             <img
               className="w-[200px] sm:w-[300px] h-auto"
-              src="public/images/sep.png"
+              src="images/sep.png"
               alt="seprator"
             />
           </div>
