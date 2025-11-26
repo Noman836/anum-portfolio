@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Loader from "../components/Loader";
-import ButtonCustom from "../components/Buttoncustom";
+import ButtonCustom from "../components/ButtonCustom.jsx";
 
 const Contactus = () => {
   const [loading, setLoading] = useState(true);

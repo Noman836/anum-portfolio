@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import AboutMe from "./AboutMe";
 import Skill from "./Skill";
-import Contactus from "./contactus";
+import Contactus from "./Contactus";
 import HeroSection from "../components/HeroSection";
 import Discription from "./Discription";
 import Portfolio from "./Portfolio";
