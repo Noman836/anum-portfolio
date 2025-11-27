@@ -69,11 +69,11 @@ export default function ProfileCard() {
   }, []);
 
   return (
-    <div className="h-screen w-full flex main mt-[-50px]">
+    <div className="min-h-screen w-full flex flex-col md:flex-row main mt-[-50px]">
       {/* Left Section */}
-      <div className="relative w-1/2 flex flex-col justify-center sm:pl-16 z-10 bg-[#E5E5E5]">
+      <div className="relative w-full md:w-1/2 flex flex-col justify-center px-6 sm:px-10 md:pl-16 z-10 bg-[#E5E5E5] py-10 md:py-0">
         {/* Curved divider */}
-        <div className="absolute top-0 right-[-2px] h-[100vh] w-24 z-100 bg-black [clip-path:polygon(100%_0,0_100%,100%_100%)]"></div>
+        <div className="hidden md:block absolute top-0 right-[-2px] h-[100vh] w-24 z-100 bg-black [clip-path:polygon(100%_0,0_100%,100%_100%)]"></div>
 
         <p className="text-lg text-gray-600">Hi, I am</p>
         <h1 className="text-4xl font-bold mt-2">Anum Akram</h1>
@@ -109,9 +109,9 @@ export default function ProfileCard() {
       </div>
 
       {/* Right Section */}
-      <div className="sm:w-1/2 w-4/3  bg-black flex items-center justify-center">
+      <div className="w-full md:w-1/2 bg-black flex items-center justify-center">
         <img
-          className={`w-full h-full object-contain py-6 transition-opacity duration-1500 ease-in-out ${
+          className={`w-full h-full max-h-[60vh] md:max-h-none object-contain py-6 transition-opacity duration-1500 ease-in-out ${
             loaded ? "opacity-100" : "opacity-0"
           }`}
           src="images/anum.png"
